@@ -1,0 +1,35 @@
+.section1 {
+    &-heading {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 66px;
+        line-height: 64px;
+        letter-spacing: 0.01em;
+        color: #3D3737;
+        margin: 150px 0 44px 0;
+        width: 479px
+    }
+
+    &-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 170%;
+        color: #161616;
+        margin-bottom: 42px;
+        width: 382px;
+
+    }
+
+    &-btn {
+        border: 2.5px solid #D3A265;
+        border-radius: 8px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #161616;
+        padding: 13px 34px 11px 36px;
+    }
+}

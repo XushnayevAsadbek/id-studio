@@ -1,0 +1,127 @@
+.section6-heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 39px;
+    color: #161616;
+    text-align: center;
+    padding-top: 80px;
+
+    span {
+        color: #D3A265;
+    }
+}
+
+.section6-box {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    padding-bottom: 80px;
+    margin-top: 70px;
+
+
+
+    &__card {
+        background: #FDFBF8;
+        border: 1px solid #D3A265;
+        border-radius: 10px;
+        width: 270px;
+
+
+        &--text1 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 23px;
+            text-align: center;
+            color: #161616;
+            padding-top: 32px;
+            margin-bottom: 31px;
+        }
+
+        &--text2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 44px;
+            line-height: 43px;
+            text-align: center;
+            color: #161616;
+            margin-bottom: 7px;
+        }
+
+        &--text3 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 17px;
+            text-align: center;
+            color: #DADADA;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #DCD1BB;
+            margin-left: 91px;
+        }
+
+        &--text4 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 180%;
+            text-align: center;
+            color: #161616;
+            margin-top: 22px;
+            margin-bottom: 54px;
+
+        }
+
+        &--btn {
+            background: #D3A265;
+            border-radius: 8px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            border: none;
+            padding: 14px 28px 11px 28px;
+            margin-bottom: 32px;
+            margin-left: 70px;
+        }
+    }
+
+    &__card:hover {
+        background: #D3A265;
+        border-radius: 10px;
+       
+
+    }
+    &__card:hover .section6-box__card--text1{
+        color: #FFFFFF;
+    }
+    &__card:hover .section6-box__card--text2{
+        color: #FFFFFF;
+    }
+    &__card:hover .section6-box__card--text3{
+        color: #D3A265;
+    }
+    &__card:hover .section6-box__card--text4{
+        color: #FFFFFF;
+    }
+    &__card:hover .section6-box__card--btn{
+        color:#000;
+        background-color: #FFFFFF;
+    }
+
+}
+
+@media(max-width:576px){
+    .section6-box{
+        display: block;
+        padding:24px  72px 36px 72px;
+
+        &__card{
+            margin-bottom: 30px;
+        }
+    }
+}

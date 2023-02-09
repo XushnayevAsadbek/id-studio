@@ -1,0 +1,118 @@
+#footer {
+    background: #F4F4F4;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 90px;
+
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 170%;
+        color: #161616;
+        margin-top: 59px;
+        margin-bottom: 96px;
+    }
+
+
+    &__link {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #161616;
+
+        &--list {
+            margin-top: 24px;
+        }
+    }
+    &__link10{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #161616;
+    }
+
+    &__link1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #161616;
+    }
+
+    &__icon {
+        margin-top: 53px;
+    }
+
+    &__card {
+
+        &--text {
+            margin-top: 24px;
+            margin-bottom: 14px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #878787;
+        }
+
+        &--text1 {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: #161616;
+        }
+        &--text3{
+            font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #161616;
+        }
+        &--link{
+            font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #161616;
+        }
+      
+    }
+}
+
+@media(max-width:576px){
+
+    .footer-top{
+        display: block;
+   
+   &__text{
+    display: none;
+   }
+   &__text1{
+    display: none;
+   } 
+
+   &__link{
+    display: none;
+
+    &--list{
+        display: none;
+    }
+   }
+
+   &__card-wrapper{
+    display: block;
+   }
+ }
+}

@@ -1,0 +1,13 @@
+.section2{
+    display: none;
+}
+@media(max-width:576px){
+    .section2{
+        display: inline-block;
+        margin-top: 32px;
+
+        &-img{
+            width: 414px;
+        }
+    }
+}

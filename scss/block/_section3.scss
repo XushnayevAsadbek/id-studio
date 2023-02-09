@@ -1,0 +1,56 @@
+#section3 {
+    margin-top: 15px;
+    background-color: #F4F4F4;
+}
+
+.section3-box {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__left {
+        padding-top: -80px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        color: #161616;
+    }
+
+    &__left-span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+         line-height: 41px;
+         letter-spacing: 0.005em;
+        color: #D3A265;
+    }
+
+    &__right {
+         padding-top: 74px;
+         padding-bottom: 71px;
+        width: 570px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 170%   ;
+        color: #161616;
+    }
+}
+@media(max-width:576px){
+    .section3-box{
+        display: inline;
+
+
+        &__right {
+            padding-top: 26px;
+            padding-bottom: 30px;
+            width: 354px;
+           font-style: normal;
+           font-weight: 400;
+           font-size: 16px;
+           line-height: 170%   ;
+           color: #161616;
+       }
+    }
+}
